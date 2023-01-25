@@ -28,8 +28,14 @@ Run the python program in terminal to get the output.
 Developed by:Nirosha.S
 Register number:22009078
 
-num_words = 0 with open('text.txt'.'r') as f1: for i in f1: word = i.split() num_words += len(word) print("number of words in the file = {}".format(num_words))
+num_words =0
+with open('python.py','r') as file1:
+    for i in file1:
+        word =i.split()
+        num_words += len(word)
+print("Number of words={0}".format(num_words))
 ```
+
 ### OUTPUT:
 ![](n1.jpg)
 
