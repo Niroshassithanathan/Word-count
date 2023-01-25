@@ -29,7 +29,7 @@ Developed by:Nirosha.S
 Register number:22009078
 
 num_words =0
-with open('python.py','r') as file1:
+with open('exp.demo','r') as file1:
     for i in file1:
         word =i.split()
         num_words += len(word)
